@@ -1,0 +1,22 @@
+- name: Dr. Borja Genoves Guzman
+  photo: Peru.jpg
+  info: Marie Curie Postdoctoral Fellow, ECE Department, University of Virginia, USA
+  email: bgenoves@virginia.edu
+  scholar: https://scholar.google.com/citations?user=7-fyGosAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/borja-genov%C3%A9s-guzm%C3%A1n-4415a69b/
+  orcid: https://orcid.org/0000-0002-6969-793X
+  # Change the number below to the number of "educations" you have (up to 6)
+  number_educ: 4
+  education1: "(2019) Ph.D. Multimedia and Communications, University Carlos III of Madrid"
+  education2: "(2015) MSc. Communication Networks and Services, Institut Mines-Télécom. Télécom SudParis "
+  education3: "(2014) MSc. Multimedia and Communications, University Carlos III of Madrid"
+  education4: "(2013) BSc. Communication Systems Engineering, University Carlos III of Madrid"
+  # education5: 
+  # education6: 
+  education1short: (2019) Ph.D., UC3M
+  education2short: (2015) MSc., Télécom-SudParis
+  education3short: (2014) MSc., UC3M
+  education4short: (2013) BSc, UC3M
+  # education4short: 
+  # education5short: 
+  # education6short: 
