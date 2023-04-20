@@ -1,0 +1,60 @@
+I"p
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-sm-4">
+      <p><img src="/images/Peru.jpg" width="100%" style="max-width:250px" /></p>
+    </div>
+    <div class="col-sm-8 col-xs-12">
+      <h3>Dr. Borja Genoves Guzman</h3>
+      <h4><i>Marie Curie Postdoctoral Fellow, ECE Department, University of Virginia, USA</i></h4>
+      <p><a href="mailto:bgenoves@virginia.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a>  <a href="https://scholar.google.com/citations?user=7-fyGosAAAAJ&amp;hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>  <a href="https://www.linkedin.com/in/borja-genov%C3%A9s-guzm%C3%A1n-4415a69b/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></p>
+
+      <ul style="overflow: hidden">
+  
+  
+  
+  
+  <li> (2019) Ph.D. Multimedia and Communications, University Carlos III of Madrid </li>
+  <li> (2015) MSc. Communication Networks and Services, Institut Mines&#8211;Télécom. Télécom SudParis  </li>
+  <li> (2014) MSc. Multimedia and Communications, University Carlos III of Madrid </li>
+  <li> (2013) BSc. Communication Systems Engineering, University Carlos III of Madrid </li>
+  
+  
+  
+  </ul>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <p>I am a Marie Curie postdoctoral fellow in the Electrical and Computer Engineering Department at the <b>University of Virginia</b>, USA (2023-present).</p>
+
+  <p>I completed the PhD in the <b>University Carlos III of Madrid</b> in 2019 with the maximum grade and the cum laude recognition, under the supervision of Dr. Victor P. Gil Jimenez in the Communications Research group, led by Prof. Ana Garcia Armada. During the PhD studies I obtained two FPU mobility grants to work as a visiting scholar in <b>Southampton University</b> and <b>The University of Edinburgh</b> (each for 3 months), under the supervision of Prof. Lajos Hanzo and Prof. Harald Haas, respectively.</p>
+
+  <p>After my PhD studies, I joined in 2019 <b>IMDEA Networks Institute</b> as a postdoctoral researcher, in Dr. Domenico Giustiniano’s group, to work in VLC for low-power Internet of Things and battery-free scenarios, while co-supervising PhD and MSc students. I also performed as project manager for ENLIGHT’EM H2020-MSCA-ITN-2018 nº 814215. In 2020 I was awarded by Ministry of Science, Innovation and Universities (Spain) with a competitive grant whose aim is to support early-stage researchers until mid-2022 (Juan de la Cierva – Formación grant).</p>
+
+  <p>From January 2023, I am a Marie Curie postdoctoral fellow. During the outgoing phase of the fellowship (Jan 23 – Dec 24) I will be working at the University of Virginia (USA), and the return phase (Jan 25 - Dec 25) of the MSCA fellowship will be at the UC3M (Spain). The objective of the project is to design RIS-based LiFi for enabling autonomous IoT devices, studying the boundaries on communication and energy harvesting. Find more details in <a href="https://cordis.europa.eu/project/id/101061853">(RISA-VLC)</a>.</p>
+
+  <p>My research interests include visible light communication, Internet of Things, low-power wireless communications and mobile communications. For more detail on my work in some of these areas, head over to the Publications tab!</p>
+</div>
+
+<div class="jumbotron">
+  <h3 id="grants">Grants</h3>
+  <ul>
+
+ <li> <b>(01/01/2023 – present)</b> Postdoctoral fellowship (Marie Skłodowska-Curie Actions) </li>
+
+ <li> <b>(01/12/2020 – 30/11/2022)</b> Postdoctoral fellowship (Juan de la Cierva – Formación) </li>
+
+ <li> <b>(03/09/2018 – 30/11/2018)</b> Research visit grant (Visiting scholar at University of Edinburgh) </li>
+
+ <li> <b>(15/05/2017 – 14/08/2017)</b> Research visit grant (Visiting scholar at University of Southampton) </li>
+
+ <li> <b>(19/06/2016 – 23/06/2016)</b> Summer School grant (IEEE Communications Society) </li>
+
+ <li> <b>(09/10/2015–19/07/2019)</b> Pre-doctoral fellowship (FPU) </li>
+
+</ul>
+</div>
+
+:ET
