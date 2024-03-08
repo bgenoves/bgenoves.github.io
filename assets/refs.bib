@@ -10,14 +10,16 @@
 file = {tesis_borja_genoves_guzman_2019.pdf},
 }
 
-@unpublished{Globecom2023,
-    Author = {B. Genoves Guzman and M. Morales Cespedes and V.P. Gil Jimenez and A. Garcia Armada and M. Brandt-Pearce},
-    Title = {Optimal mirror placement to minimize the outage area in Visible Light Communication},
-  journal={in Proc. IEEE Global Communications Conference (IEEE Globecom)},
-year = {2023}
+
+@unpublished{guzman2024resource,
+      title={Resource allocation exploiting reflective surfaces to minimize the outage probability in VLC}, 
+      author={Borja Genoves Guzman and Maximo Morales Cespedes and Victor P. Gil Jimenez and Ana Garcia Armada and Maite Brandt-Pearce},
+      year={2024},
+      eprint={2401.16627},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+doi = {2401.16627},
 }
-
-
 
 
 
@@ -44,7 +46,6 @@ file = {FONSECA2024.pdf},
 year = {2024},
 issn = {0140-3664},
 doi = {https://doi.org/10.1016/j.comcom.2024.01.005},
-url = {https://www.sciencedirect.com/science/article/pii/S0140366424000057},
 author = {Dayrene Frometa Fonseca and Muhammad Sarmad Mir and Sergio Iglesias {de Frutos} and Borja Genoves Guzman and Domenico Giustiniano},
 keywords = {Dimming, Infrared (IR) spectrum, LiFi, Visible light (VL) spectrum},
 abstract = {Light-Fidelity (LiFi) has emerged in the last few years as a promising technology for alleviating the stringent demand for wireless data services. Prior works have considered LiFi operating either in the visible light or infrared spectrum. Each spectrum band has its own advantages: visible light allows leveraging existing infrastructure for communication, while infrared is not affected by light dimming. In this work, we propose a modulation scheme that retains the benefits of both bands, introducing a simple, low-cost, yet efficient dimming solution for LiFi networks. We compare the performance of the proposed dimming scheme with both the digital and analog dimming techniques traditionally used in LiFi systems. Simulation results show that our dimming solution offers better communication and illumination performance than previous proposals, providing larger signal-to-noise ratio, spectral efficiency, and a full and fine-grained dimming range. Finally, we prototype our solution by designing an extended version of the OpenVLC 1.3 platform, and we experimentally show its robust communication performance under different dimming conditions. We make the implemented system publicly available to the research community.}
@@ -272,12 +273,25 @@ year = {2023},
 isbn = {9781450399906},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3570361.3614083},
+doi = {10.1145/3570361.3614083},
 abstract = {In this paper, we demonstrate PassiveLiFi, a battery-free system that works at the intersection of Light-Fidelity (LiFi) and Radio-Frequency (RF) backscatter technologies to enable long-range and ultra-low power wireless communications. We show how the PassiveLiFi tag can transmit real measured data through an interactive demo, and we display the received data in a customized graphical user interface. Our demo shows the suitability of PassiveLiFi for implementing real IoT applications, such as monitoring systems for smart agrifood facilities (i.e., greenhouses and vertical farms).},
 booktitle = {Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},
 articleno = {109},
 numpages = {3}
 }
+
+
+@INPROCEEDINGS{10436718,
+  author={Guzman, Borja Genoves and Cespedes, Maximo Morales and Jimenez, Victor P. Gil and Armada, Ana Garcia and Brandt-Pearce, Maïté},
+  booktitle={GLOBECOM 2023 - 2023 IEEE Global Communications Conference}, 
+  title={Optimal Mirror Placement to Minimize the Outage Area in Visible Light Communication}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={4698-4703},
+abstract={Visible light communication (VLC) is a growing technology that can complement radio frequency to fulfill the increasing demand for wireless data services. VLC exploits the already deployed illumination infrastructure based on light-emitting diodes to communicate data. While mirrors have been traditionally used for interior decoration, among other applications, to what extent can they be deployed to improve VLC performance? In this paper, we propose optimizing the placement of mirrors to minimize the outage area, a common problem in VLC when line-of-sight link blockage occurs. We compare this optimal performance with a single-rectangular mirror array, a common mirror shape that is found indoors. We also study the most helpful mirror placement under different conditions. We show that our outage minimization algorithm, MinOut, easily provides threefold outage reductions. Besides, we demonstrate that a single-rectangular mirror array with orientation mobility can provide similar or even better performance than an optimal distributed mirror placement without mobility.},
+  keywords={Wireless communication;Shape;Line-of-sight propagation;Mirrors;Optimization;Standards;Visible light communication;Line-of-sight (LoS) link blockage;mirrors;optimal placement;outage probability;reconfigurable-intelligent surfaces (RIS);visible light communication (VLC)},
+  doi={10.1109/GLOBECOM54140.2023.10436718}}
 
 
 @INPROCEEDINGS{ICNP2023,
@@ -300,7 +314,6 @@ year = {2023},
 isbn = {9781450399265},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3565287.3610262},
 doi = {10.1145/3565287.3610262},
 abstract = {Radio-Frequency (RF) backscatter has emerged as a low-power communication technique. Backscatter systems either rely on active signal generators (spectrum efficient, but dedicated infrastructure) or existing ambient wireless transmissions (existing infrastructure, but spectrum inefficient). In this paper, we aim to make RF backscatter spectrum efficient and at the same time work with existing infrastructure. We propose to leverage the deployment of LiFi networks built upon LED bulbs for pervasive RF backscatter. We experimentally demonstrate that LiFi, which passively leaks RF signals, can be exploited as a radio carrier generator for low-power RF backscatter. We further design LeakageScatter, the first backscatter system operating in the ISM band and exploiting LiFi-leaked RF signals, without the need to actively generate the carrier wave. We customize the design of the loop at the LiFi transmitter, as well as the coil antennas at the tag and RF backscatter receiver, to optimize the system performance. We propose to opportunistically enable the oscillator of the backscatter tag in the software that could reduce the energy consumption on backscattering by up to 75\%. Experimental results show that LeakageScatter achieves a backscattering distance up to 10 m and 18 m in indoor and outdoor scenarios, respectively, without using a dedicated RF carrier generator.},
 booktitle = {Proceedings of the Twenty-Fourth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM Mobihoc)},
