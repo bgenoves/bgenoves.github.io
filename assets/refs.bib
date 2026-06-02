@@ -12,17 +12,6 @@ file = {tesis_borja_genoves_guzman_2019.pdf},
 
 
 
-@unpublished{guzmanIEEEGlobecom2025,
-      title={Angle diversity receiver as a key enabler for reliable ORIS-based Visible Light Communication. BEST PAPER AWARD.}, 
-      author={Borja Genoves Guzman and Maximo Morales-Cespedes and Ana Garcia Armada and Maite Brandt-Pearce},
-      year={2025},
-      eprint={2505.10129},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP},
-      doi={2505.10129}, 
-}
-
-
 
 @inbook{PAPRChapter,
 author = {Guzmán, Borja Genovés and Jiménez, Víctor P. Gil and Pérez, Roberto Pérez},
@@ -38,6 +27,22 @@ year = {2019},
 keywords = {5G, high-power amplifiers, multicarrier modulations, nonlinear distortions, PAPR, power envelope},
 abstract = {Multicarrier transmission schemes produce time-domain (TD) signals with large envelope fluctuations. These signals suffer from nonlinear distortions when passing through a high-power amplifier (HPA) because of its nonlinear transfer function. Several metrics are used to quantify the envelope fluctuations: peak-to-average power ratio (PAPR), crest factor (CF), and cubic metric (CM). Multiple techniques and algorithms have been proposed for reducing such metrics in the literature. This article reviews all the possible PAPR reduction techniques and emphasizes the importance of their application in multicarrier schemes. Besides, new variants adapted to multiple-input multiple-output (MIMO) orthogonal frequency division multiplexing (OFDM) are also presented, which take on importance in 5G systems. Finally, a comparison among these techniques is presented in terms of the key aspects considered when designing a 5G system: power increase, implementation complexity, bit error rate (BER) degradation, and required side information. It is shown that the selection of the PAPR reduction technique depends on the application, the system requirements, and the scenario.}
 }
+
+
+@ARTICLE{2026_Exploiting_ADR_Positioning,
+  author={Barrios, Alejandro López and Guzmán, Borja Genovés and Morales-Céspedes, Máximo},
+  journal={IEEE Open Journal of the Communications Society}, 
+  title={Exploiting Angular Diversity for Passive Positioning VLC Systems}, 
+  year={2026},
+  volume={7},
+  number={},
+  pages={3680-3695},
+  keywords={Aerospace and electronic systems;Sensor systems;Apertures;Antennas;Electromagnetic propagation;Optical propagation;Light emitting diodes;Diodes;Filtering;System-on-chip;Visible light communication;angle diversity receiver;photodetector design;field-of-view},
+abstract={Retroreflective visible light communications (R-VLC) have been recently proposed for providing ultra-low power positioning and communications in the framework of the Internet of Things. Specifically, devices equipped with a corner-cube retroreflector send optical signal back to the source of light through a parallel path, where the photodetector (PD) is co-located. To obtain positioning through trilateration methods, previous works consider a large separation among PDs so that they provide at least three linearly independent channel responses. In this work, we propose a R-VLC system based on the deployment of PDs following an angular diversity arrangement onto the source plane. This approach achieves two goals; i) it enables trilateration-based positioning for small sources of light by implementing a single angle diversity receiver (ADR) and following a centralized structure and ii) it improves the footprint and precision of positioning accuracy, i.e., the area in which positioning is accurate, compared to traditional approaches. Simulation results show that the proposed scheme increases the positioning area 60%, ensuring a positioning accuracy of 1 cm. Moreover, it is also shown that positioning performance can be improved increasing the number of PDs and carefully selecting them to avoid correlated channel responses.},
+file={2026_Exploiting_ADR_Positioning.pdf},
+  doi={10.1109/OJCOMS.2026.3683151}}
+
+
 
 @ARTICLE{Otero_JSAC_2026,
   author={Martinez, Javier Otero and Genoves Guzman, Borja and Garcia Armada, Ana},
@@ -62,7 +67,8 @@ NUMBER = {3},
 ARTICLE-NUMBER = {926},
 ISSN = {1424-8220},
 ABSTRACT = {With the rapid evolution of wireless networks, the need to explore novel technologies to meet the demands of future systems, particularly 6G, has become a significant challenge. One promising solution is integrating radio frequency (RF) and optical wireless communication (OWC) technologies to leverage their unique strengths. This paper introduces a novel model for integrating RF and OWC technologies within the framework of emerging 6G. The main objective of this approach is the dynamic technology selection (TS) and modulation scheme selection (MSS), which play a pivotal role in optimizing network efficiency and adapting to diverse 6G requirements. The proposed cross-layer architecture integrates the application layer, network layer based on a software-defined network (SDN), and physical layer consisting of a hybrid cell and software-defined radio with optical functionality (SDR-O). This approach facilitates real-time decision-making based on environmental factors and application requirements.},
-DOI = {10.3390/s26030926}
+DOI = {10.3390/s26030926},
+file={Cross-layer_sensors_2026.pdf}
 }
 
 
@@ -373,6 +379,20 @@ file = {Mobile_IEEECM_2017_ps.pdf}}
   ISSN={1558-4127},
   month={November},
 file = {Wireless_IEEETCE_2015_ps.pdf}}
+
+
+@INPROCEEDINGS{11432718,
+  author={Guzman, Borja Genoves and Morales-Céspedes, Máximo and Armada, Ana García and Brandt-Pearce, Maïté},
+  booktitle={GLOBECOM 2025 - 2025 IEEE Global Communications Conference}, 
+  title={Angle diversity receiver as a key enabler for reliable ORIS-based Visible Light Communication. BEST PAPER AWARD.}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={236-241},
+abstract = {Visible Light Communication (VLC) offers a promising solution to satisfy the increasing demand for wireless data. However, link blockages remain a significant challenge. This paper addresses this issue by investigating the combined use of angle diversity receivers (ADRs) and optical reconfigurable intelligent surfaces (ORISs) in multiuser VLC systems. We consider ORIS elements as small movable mirrors. We demonstrate the complementarity of ADR and ORIS in mitigating link blockages, as well as the advantages of using a larger number of ORIS elements due to the increased field-of-view (FoV) at the receiver enabled by the ADR. An optimization algorithm is proposed to maximize the minimum signal-to-noise power ratio (SNR) to deploy a fair communication network. Numerical results show that integrating ADR and ORIS significantly enhances VLC communication performance, achieving an SNR gain of up to 30dB compared to a system without ORIS, and mitigating communication outages produced by link blockages or out-of-FoV received signals. We also prove that an ADR with a single tier of photodiodes is sufficient to complement ORIS-assisted VLC.},
+  keywords={Wireless communication;Diversity reception;Reconfigurable intelligent surfaces;Optical receivers;Photodiodes;Reliability;Nonlinear optics;Optimization;Visible light communication;Signal to noise ratio;Angle diversity receiver (ADR);Link blockage;Optical reconfigurable intelligent surface (ORIS);Out-of-FoV;Visible light communication (VLC)},
+  doi={10.1109/GLOBECOM59602.2025.11432718}}
+
 
 
 @INPROCEEDINGS{10901634,
@@ -717,6 +737,33 @@ location={Trento, Italy},
 location={Valencia, Spain},
 }
 
+@Misc{PresentationNEONProject2025,
+author = {{Borja Genoves Guzman}},
+title = {Reflecting surface-assisted Visible Light Communication},
+booktitle = {Seminar organized by NEON project},
+year = {2025-November}
+}
+
+@Misc{PresentationWinterShool2026,
+author = {{Borja Genoves Guzman}},
+title = {Robust and self-sustaining optical wireless IoT: Integrating ORIS and SLIPT in VLC Networks},
+booktitle = {Seasonal School of ISAC-NEWTON Doctoral Network},
+year = {2026-May}
+}
+
+@Misc{PresentationWinterShool2026,
+author = {{Borja Genoves Guzman and Maximo Morales Cespedes}},
+title = {Artificial Intelligence for Optical Wireless Communication},
+booktitle = {2nd Winter School on AI for 6G communications},
+year = {2026-January}
+}
+
+@Misc{PresentationWinterShool2026,
+author = {{Borja Genoves Guzman and Maximo Morales Cespedes}},
+title = {Beyond line-of-sight: ORIS and the optical wireless IoT revolution},
+booktitle = {“The potential of Optical Wireless Communication to enable the future generation of communications”. Seminar organized by UC3M, University of Oulu and Aalto University},
+year = {2025-October}
+}
 
 @Misc{PresentationRANK,
 author = {{Borja Genoves Guzman}},
